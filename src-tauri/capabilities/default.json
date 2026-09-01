@@ -1,0 +1,17 @@
+{
+  "identifier": "default",
+  "description": "permisos de la ventana principal",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "store:default",
+    "clipboard-manager:allow-write-text",
+    "clipboard-manager:allow-read-text",
+    "global-shortcut:allow-register",
+    "global-shortcut:allow-unregister",
+    {
+      "identifier": "http:default",
+      "allow": [{ "url": "https://is.gd/*" }]
+    }
+  ]
+}
