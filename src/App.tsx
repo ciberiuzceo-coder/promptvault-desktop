@@ -39,7 +39,7 @@ const TAG_COLOR_PALETTE = [
 ];
 
 // Cambia esto por la URL de tu sitio una vez lo despliegues en la Fase 3
-const SHARE_PAGE_BASE = "https://TU-SITIO.netlify.app/";
+const SHARE_PAGE_BASE = "https://promptvault-share.netlify.app/";
 
 const SEED_PROMPTS: PromptItem[] = [
   {
